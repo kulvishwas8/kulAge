@@ -1,5 +1,5 @@
 # kulAge
-This application is an age-based asset allocation tool that calculates investment allocation solely from the user’s date of birth, assuming a maximum age of 85 years. It is implemented in Python using NumPy, pandas, Plotly, and Streamlit for an interactive web-based interface.
+This application is an age-based asset allocation tool that calculates investment allocation solely from the user’s date of birth, assuming a maximum age of 85 years. It is implemented in Python using  Streamlit for an interactive web-based interface.
 
 ## Overview
 
@@ -10,11 +10,11 @@ The only required input is the user’s date of birth, from which the current ag
 
 ## Technology Stack
 
-The backend is written in Python and relies on NumPy for numerical calculations and vectorized age and allocation computations. Pandas is used to structure intermediate data (such as age bands and corresponding allocations), and Plotly generates interactive allocation charts that are embedded in the Streamlit interface.
+The backend is written in Python that are embedded in the Streamlit interface.
 
 ## Frontend and User Flow
 
-Streamlit provides the entire user interface, including input widgets for date of birth, buttons to trigger calculations, and sections to display cards and charts of the computed asset allocation. Once the user enters a valid date of birth, the app calculates age in real time, applies the allocation logic, and renders interactive Plotly visualizations and summary cards.
+Streamlit provides the entire user interface, including input widgets for date of birth, buttons to trigger calculations, and sections to display cards and charts of the computed asset allocation. Once the user enters a valid date of birth, the app calculates age in real time, applies the allocation logic, and renders  and summary cards.
 
 ## Intended Use and Limitations
 
